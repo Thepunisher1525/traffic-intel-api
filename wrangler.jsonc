@@ -1,0 +1,16 @@
+{
+  "compatibility_date": "2025-10-08",
+  "main": "src/index.ts",
+  "name": "traffic-intel-api",
+  "upload_source_maps": true,
+  "observability": {
+    "enabled": true
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "traffic-intel-db",
+      "database_id": "e723e99f-a3b1-42b7-a511-170f8e932bb6"
+    }
+  ]
+}
